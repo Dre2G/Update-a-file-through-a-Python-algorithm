@@ -33,7 +33,7 @@ as a string to the <em>"import_file"</em> variable:
 Then, I used a <em>with</em> statement to open the file:
 
 <br align="center"/>
-<img src="https://imgur.com/CLqvhQ0.png" height="80%" width="80%" alt="Control Categories"/>
+<img src="https://imgur.com/G27SCfI.png" height="80%" width="80%" alt="Control Categories"/>
 <br />
  
 <h3> Describe the permissions string </h3>
