@@ -45,7 +45,7 @@ keyword to assign a variable named <em>file</em>; <em>file</em> stores the outpu
  
 <h3> Read the file contents </h3>
 
-In order to read the file contents, I used the <em>b</em> method to covert it into the string.
+In order to read the file contents, I used the <em>.read()</em> method to covert it into the string.
 <br align="center"/>
 <img src="https://imgur.com/VpUygtR.png" height="80%" width="80%" alt="Control Categories"/>
 <br />
@@ -71,26 +71,26 @@ Therefore, I next used the <em>.split()</em> method to convert the <em>ip_addres
 The <em>.split()</em> function is called by appending it to a string variable. It works by converting the contents
 of a string to a list. The purpose of splitting <em>ip_addresses</em> into a list is to make it easier to remove IP addresses
 from the allow list. By default, the <em>.split()</em> function splits the text by whitespace into list elements. 
-In this algorithm, the <em>.split</em> function takes the data stored in the variable <em>b</em>, which is a string of IP addresses
+In this algorithm, the <em>.split</em> function takes the data stored in the variable <em>ip_addresses</em>, which is a string of IP addresses
 that are each separated by whitespace, and it converts this string into a list of IP addresses. To store this list, 
-I reassigned it back to the variable <em>b</em>.
+I reassigned it back to the variable <em>ip_addresses</em>.
 
 
 <br />
 
 <h3>Iterate through the remove list</h3>
 
-A key part of my algorithm involves iterating through the IP addresses that are elements in the <em>b</em>.
-To do this, I incorporated a <em>b</em> loop:
+A key part of my algorithm involves iterating through the IP addresses that are elements in the <em>.remove_list</em>.
+To do this, I incorporated a <em>for</em> loop:
 
 <br/>
 <img src="https://imgur.com/o7slN4o.png" height="80%" width="80%" alt="Compliance Checklist choices"/>
 <br />
 
-The <em>b</em> loop in Python repeats code for a specified sequence. The overall purpose of the <em>b</em>
+The <em>for</em> loop in Python repeats code for a specified sequence. The overall purpose of the <em>for</em>
 loop in a Python algorithm like this is to apply specific code statements to all elements in a sequence.
-The <em>b</em> keyword <em>b</em> indicates to iterate through the sequence <em>b</em> and assign each 
-value to the loop variable <em>b</em>.
+The <em>for</em> keyword starts the <em>for</em> indicates to iterate through the sequence <em>ip_addresses</em> and assign each 
+value to the loop variable <em>element</em>.
 
 
 <br />
